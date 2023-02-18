@@ -45,6 +45,10 @@ public class Soldado {
 
 	
 	// Getter and Setter
+	/**
+	 * Getter and setter
+	 * 
+	 */
     public boolean isEstaMuerto() {
 		return estaMuerto;
 	}
@@ -71,8 +75,8 @@ public class Soldado {
 	/**
 	 * 
 	 * Metodo que establece si el soldado puede disparar.
-	 * Si el numero de balas que tiene el soldado > 0 si que puede disparar. 
-	 * Si el numero de balas < o no podra disparar.
+	 * Si el numero de balas que tiene el soldado es mayor que 0 si que puede disparar. 
+	 * Si el numero de balas es menor que 0 o no podra disparar.
 	 * 
 	 * @return true si puede disparar y false si no.
 	 */
