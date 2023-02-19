@@ -72,15 +72,16 @@ public class Soldado {
 	}
 
 
+	//Metodos propios
 	/**
 	 * 
 	 * Metodo que establece si el soldado puede disparar.
 	 * Si el numero de balas que tiene el soldado es mayor que 0 si que puede disparar. 
-	 * Si el numero de balas es menor que 0 o no podra disparar.
+	 * Si el numero de balas es menor que 0 no podra disparar.
 	 * 
 	 * @return true si puede disparar y false si no puede.
 	 */
-	//Metodos propios
+	
 	public boolean puedeDisparar() {
 
                   if(this.numeroBalas > 0) {
@@ -93,8 +94,6 @@ public class Soldado {
 
     }
 
-   
-
 	/**
 	 * 
 	 * Metodo que establece la accion de disparar. El soldado pasado por parametro no puede ser nulo ni estar vacio
@@ -105,7 +104,7 @@ public class Soldado {
 	 */
     public void disparar(Soldado sol) {
 
-                  this.numeroBalas--;
+                  this.numeroBalas --;
 
                   sol.estaMuerto = true;
 
