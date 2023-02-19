@@ -2,8 +2,8 @@
  * 
  * Entidad soldado con atributos privados estaMuerto y numeroBalas.
  * 
- * Tendrá diferentes metodos para realizar acciones con el soldado, tales como:
- * averiguar si puede disparar y hacer esa accion.
+ * Tendra diferentes metodos para realizar acciones con el soldado, tales como:
+ * averiguar si puede disparar y poder hacer esa accion.
  * 
  * @author Sergio Palmero
  * @version 1.0
@@ -78,7 +78,7 @@ public class Soldado {
 	 * Si el numero de balas que tiene el soldado es mayor que 0 si que puede disparar. 
 	 * Si el numero de balas es menor que 0 o no podra disparar.
 	 * 
-	 * @return true si puede disparar y false si no.
+	 * @return true si puede disparar y false si no puede.
 	 */
 	//Metodos propios
 	public boolean puedeDisparar() {
